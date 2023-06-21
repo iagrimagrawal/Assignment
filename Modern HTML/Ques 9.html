@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Information Form</title>
+  
+</head>
+<body>
+  <form>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" tabindex="2" required>
+    <br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" tabindex="1" required>
+    <br>
+
+    <label for="email">Email Address:</label>
+    <input type="text" id="email" tabindex="4" required>
+    <br>
+
+    <input type="submit" value="Submit" tabindex="3">
+    <br><br><br>
+    <h3> When we press the tab key while focusing on the input fields and the submit button, we wll observe that the tabindex values control the order in which the elements receive focus. The tabindex value of 1 makes the Last Name field the first to be focused, followed by the First Name field (tabindex 2), the Submit button (tabindex 3), and finally the Email field (tabindex 4).</h3>
+  </form>
+</body>
+</html>
