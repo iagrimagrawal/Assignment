@@ -1,0 +1,50 @@
+<!-- Create a navigation bar similar to question 3 with links aligned to the center. On hovering the navigation links change the text color, increase the font size and make the text bold. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>different border style</title>
+    <style>
+      nav {
+        background-color: aquamarine;
+        padding: 20px;
+        margin-top: 40px;
+      }
+      a {
+        margin-left: 100px;
+      }
+      a:hover {
+        color: #ff0202;
+        font-size: 120%;
+        font-family: Impact, "Arial Narrow Bold";
+      }
+      .solid {
+        border: 2px solid black;
+      }
+      .dotted {
+        border: 2px dotted black;
+      }
+      .dashed {
+        border: 2px dashed black;
+      }
+      .groove {
+        border: 2px groove black;
+      }
+      .double {
+        border: 5px double black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a class="solid" href="#" target="_blank" rel="noopener noreferrer"
+        >Home</a
+      >
+      <a class="dotted" href="#">About us</a>
+      <a class="dashed" href="#">contact</a>
+      <a class="groove" href="#">Blog</a>
+      <a class="double" href="#">Login</a>
+    </nav>
+  </body>
+</html>

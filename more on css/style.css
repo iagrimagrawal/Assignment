@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Oswald:wght@500&display=swap");
+h1 {
+  font-family: "oswald";
+  text-align: center;
+}
+img {
+  height: 400px;
+  width: 800px;
+  border: 2px solid black;
+}
+p {
+  font-family: "montserrat";
+}
