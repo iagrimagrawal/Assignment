@@ -1,0 +1,46 @@
+<!-- Create a web page with a registration form, using the CSS attribute selector change the text color of each input field to any other color. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration form</title>
+    <style>
+      * {
+        background-color: #ffffff;
+      }
+      .bg-blue {
+        color: #4c00ff;
+      }
+      .bg-red {
+        color: #ff0000;
+        margin-left: 23px;
+      }
+      .bg-aqua {
+        color: #00ff22;
+      }
+      .bg-black {
+        margin-left: 300px;
+      }
+      label {
+        background-color: aqua;
+        margin-left: 190px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Here is the registration form fill it to get register :</h3>
+    <form action="Registration form" method="post"></form>
+    <br />
+    <label for="username">username</label>
+    <input class="bg-blue" type="text" name="" id="username" required />
+    <br /><br />
+    <label for="email">Email</label>
+    <input class="bg-red" type="email" name="" id="email" required />
+    <br /><br />
+    <label for="password">password</label>
+    <input class="bg-aqua" type="password" name="" id="password" required />
+    <br /><br />
+    <input class="bg-black" type="submit" value="Register" />
+  </body>
+</html>
